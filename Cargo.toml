@@ -1,0 +1,19 @@
+[package]
+name = "supercolony"
+version = "0.1.0"
+edition = "2021"
+default-run = "supercolony"
+description = "Local real-time ant colony strategy prototype"
+license = "MIT"
+
+[dependencies]
+macroquad = { version = "0.4.14", default-features = false }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+
+[profile.dev.package."*"]
+opt-level = 3

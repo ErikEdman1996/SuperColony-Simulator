@@ -1,0 +1,19 @@
+# PROVISIONAL gameplay values, not settled game rules.
+# All rates use simulation seconds. Restart after editing.
+expansion_seconds = 6.0
+army_fraction = 0.5
+starting_population = 1200
+starting_stored_food = 1500.0
+zone_food_min = 12000.0
+zone_food_max = 32000.0
+harvest_per_ant_per_second = 0.09
+harvest_limit_per_zone_per_second = 120.0
+upkeep_per_ant_per_second = 0.025
+births_per_second = 2.0
+food_per_birth = 8.0
+birth_reserve_seconds = 20.0
+starvation_seconds = 8.0
+ant_speed = 32.0
+ant_health = 3.0
+attack_damage = 1.0
+attack_interval = 0.65
